@@ -7,3 +7,32 @@ main{
   background: #e1e4eb;
   height: 100vh;
 }
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #f4f4f4;
+  padding: 100px 150px;
+  border-radius: 8px;
+}
+
+.content{
+  display: flex;
+}
+
+.content .nHorario{
+  padding: 20px;
+  background-image: radial-gradient(circle, #7230d3, #7230d8, #722fdd, #722fe3, #722fe8);
+  box-shadow: rgba(114,48,211,1) 0px 3px 8px;
+  border-radius: 8px;
+  color: #f4f4f4;
+  font-size: 68px;
+}
+.content .pHorario{
+  padding: 20px 10px;
+  font-size: 68px;
+  color: #a990d8;
+}
