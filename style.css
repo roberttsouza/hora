@@ -39,3 +39,22 @@ main{
   font-size: 68px;
   color: #a990d8; 
 }
+
+@media (max-width: 600px){
+  .container{
+    padding: 20px 20px;
+  }
+
+  .content .nHorario{
+    margin: auto;
+    padding: 25px 5px;
+    font-size: 28px;
+  }
+  .content .pHorario{
+    padding: 0 10px;
+    font-size: 50px;
+    color: #a990d8; 
+    text-align: center;
+  }
+}
+
