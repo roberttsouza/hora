@@ -24,12 +24,15 @@ main{
 }
 
 .content .nHorario{
+  width: 70px;
   padding: 20px;
   background-image: radial-gradient(circle, #7230d3, #7230d8, #722fdd, #722fe3, #722fe8);
   box-shadow: rgba(114,48,211,1) 0px 3px 8px;
   border-radius: 8px;
   color: #f4f4f4;
   font-size: 68px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 .content .pHorario{
   padding: 20px 10px;
